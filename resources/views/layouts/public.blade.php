@@ -18,7 +18,7 @@
                     <a href="{{ route('home') }}" class="text-zinc-400 transition hover:text-amber-500" wire:navigate>Home</a>
                     <a href="{{ route('donate') }}" class="text-zinc-400 transition hover:text-amber-500" wire:navigate>Donate</a>
                     <a href="{{ route('videos') }}" class="text-zinc-400 transition hover:text-amber-500" wire:navigate>Videos</a>
-                    <a href="{{ asset('downloads/RebirthInstaller.zip') }}" download class="text-zinc-400 transition hover:text-amber-500">Download</a>
+                    <a href="https://github.com/Mid-Tech-Consulting/rebirthuo/releases/download/v1.0.0/RebirthInstaller.zip" download class="text-zinc-400 transition hover:text-amber-500">Download</a>
                     <a href="https://discord.gg/pz44UymumS" target="_blank" rel="noopener noreferrer"
                        class="flex items-center gap-1.5 text-zinc-400 transition hover:text-amber-500">
                         <svg class="size-4" fill="currentColor" viewBox="0 0 24 24">
