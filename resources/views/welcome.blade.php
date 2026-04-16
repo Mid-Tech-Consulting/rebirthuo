@@ -16,7 +16,7 @@
         <h2 class="mb-12 text-center font-cinzel text-3xl font-bold text-zinc-100 sm:text-4xl">
             Why Choose Rebirth?
         </h2>
-        <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 2rem;">
+        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem;">
             {{-- Feature 1 --}}
             <div class="rounded-xl border border-zinc-800 bg-zinc-900/50 p-8 transition hover:border-amber-600/50">
                 <div class="mb-4 flex size-12 items-center justify-center rounded-lg bg-amber-600/10">
@@ -61,6 +61,28 @@
                 <h3 class="mb-2 font-cinzel text-xl font-bold text-zinc-100">Felucca Rules</h3>
                 <p class="text-zinc-400">Full PvP everywhere — like Siege Perilous but with insurance. Raid any boss, spawn, or monster. Be ready to fight or be fought.</p>
             </div>
+
+            {{-- Feature 5 --}}
+            <div class="rounded-xl border border-zinc-800 bg-zinc-900/50 p-8 transition hover:border-amber-600/50">
+                <div class="mb-4 flex size-12 items-center justify-center rounded-lg bg-amber-600/10">
+                    <svg class="size-6 text-amber-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.42 15.17 17.25 21A2.652 2.652 0 0 0 21 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 1 1-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 0 0 4.486-6.336l-3.276 3.277a3.004 3.004 0 0 1-2.25-2.25l3.276-3.276a4.5 4.5 0 0 0-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437 1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008Z"/>
+                    </svg>
+                </div>
+                <h3 class="mb-2 font-cinzel text-xl font-bold text-zinc-100">Active Development</h3>
+                <p class="text-zinc-400">Bugs fixed daily and new features added daily. The team is always working to improve your experience.</p>
+            </div>
+
+            {{-- Feature 6 --}}
+            <div class="rounded-xl border border-zinc-800 bg-zinc-900/50 p-8 transition hover:border-amber-600/50">
+                <div class="mb-4 flex size-12 items-center justify-center rounded-lg bg-amber-600/10">
+                    <svg class="size-6 text-amber-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z"/>
+                    </svg>
+                </div>
+                <h3 class="mb-2 font-cinzel text-xl font-bold text-zinc-100">Custom UO Store</h3>
+                <p class="text-zinc-400">Exclusive custom items in the in-game store, refreshed monthly. Donate and your Sovereigns are delivered automatically.</p>
+            </div>
         </div>
     </section>
 
@@ -72,7 +94,7 @@
                     Support the Server
                 </h2>
                 <p class="mb-8 text-lg text-zinc-400">
-                    Help keep Rebirth running. Every $10 donated earns you <span class="font-semibold text-amber-500">1,000 Sovereigns</span> to spend on in-game rewards.
+                    Help keep Rebirth running. Every $1 donated earns you <span class="font-semibold text-amber-500">100 Sovereigns</span> to spend on in-game rewards.
                 </p>
                 <a href="{{ route('donate') }}"
                    class="inline-block rounded-lg bg-amber-600 px-8 py-3 text-lg font-semibold text-white shadow-lg shadow-amber-600/25 transition hover:bg-amber-500"

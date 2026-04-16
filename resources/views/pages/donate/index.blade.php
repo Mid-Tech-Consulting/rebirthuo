@@ -12,7 +12,7 @@ class extends Component
     #[Validate('required|string|max:255')]
     public string $account_name = '';
 
-    #[Validate('required|integer|min:10')]
+    #[Validate('required|integer|min:1')]
     public int $amount = 10;
 
     public function donate(): void
@@ -40,7 +40,7 @@ class extends Component
         <div class="rounded-xl border border-zinc-800 bg-zinc-900/50 p-8 shadow-xl">
             <h1 class="mb-2 font-cinzel text-3xl font-bold text-zinc-100">Donate</h1>
             <p class="mb-8 text-zinc-400">
-                Support Rebirth and earn Sovereigns. Every <span class="text-amber-500">$10 = 1,000 Sovereigns</span>.
+                Support Rebirth and earn Sovereigns. Every <span class="text-amber-500">$1 = 100 Sovereigns</span>.
             </p>
 
             @if (session('success'))
@@ -83,7 +83,7 @@ class extends Component
                         wire:model.live="amount"
                         type="number"
                         id="amount"
-                        min="10"
+                        min="1"
                         step="1"
                         required
                         class="rounded-lg border border-zinc-700 bg-zinc-800 px-4 py-2.5 text-zinc-100 placeholder-zinc-500 transition focus:border-amber-600 focus:outline-none focus:ring-2 focus:ring-amber-600/50"

@@ -25,6 +25,6 @@ class DonationService
 
     public function calculateSovereigns(int $amount): int
     {
-        return (int) floor($amount / 10) * 1000;
+        return $amount * 100;
     }
 }
