@@ -13,7 +13,7 @@ class extends Component
     public string $account_name = '';
 
     #[Validate('required|integer|min:1')]
-    public int $amount = 10;
+    public ?int $amount = 10;
 
     public function donate(): void
     {
@@ -30,7 +30,7 @@ class extends Component
     public function with(): array
     {
         return [
-            'calculated_sovereigns' => app(DonationController::class)->calculateSovereigns(max(0, $this->amount)),
+            'calculated_sovereigns' => app(DonationController::class)->calculateSovereigns(max(0, (int) $this->amount)),
         ];
     }
 }; ?>
