@@ -86,6 +86,69 @@
         </div>
     </section>
 
+    {{-- How to Connect Section --}}
+    <section class="border-t border-zinc-800/50 bg-zinc-900/30">
+        <div class="mx-auto max-w-5xl px-4 py-20 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h2 class="mb-4 font-cinzel text-3xl font-bold text-zinc-100 sm:text-4xl">
+                    How to Connect
+                </h2>
+                <p class="mb-10 text-lg text-zinc-400">
+                    Get into Britannia in minutes.
+                </p>
+            </div>
+
+            <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem;">
+                {{-- Easy Install --}}
+                <div class="rounded-xl border border-amber-800/50 bg-amber-900/10 p-8">
+                    <div class="mb-4 flex size-12 items-center justify-center rounded-lg bg-amber-600/20">
+                        <svg class="size-6 text-amber-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3"/>
+                        </svg>
+                    </div>
+                    <h3 class="mb-3 font-cinzel text-xl font-bold text-zinc-100">Easy Install (Recommended)</h3>
+                    <ol class="space-y-3 text-zinc-300">
+                        <li class="flex gap-3">
+                            <span class="flex size-6 shrink-0 items-center justify-center rounded-full bg-amber-600 text-xs font-bold text-white">1</span>
+                            <span>Click the <strong class="text-amber-500">Download</strong> link in the footer below to grab the installer.</span>
+                        </li>
+                        <li class="flex gap-3">
+                            <span class="flex size-6 shrink-0 items-center justify-center rounded-full bg-amber-600 text-xs font-bold text-white">2</span>
+                            <span>Unzip <code class="rounded bg-zinc-800 px-1.5 py-0.5 text-xs text-amber-400">RebirthInstaller.zip</code>.</span>
+                        </li>
+                        <li class="flex gap-3">
+                            <span class="flex size-6 shrink-0 items-center justify-center rounded-full bg-amber-600 text-xs font-bold text-white">3</span>
+                            <span>Run the installer — Rebirth will be in <code class="rounded bg-zinc-800 px-1.5 py-0.5 text-xs text-amber-400">C:\rebirthshard</code> in minutes, bundled with the <strong class="text-amber-500">Orion</strong> client.</span>
+                        </li>
+                    </ol>
+                    <p class="mt-4 text-xs text-zinc-500">
+                        That's why the download is 1.7 GB — the full Orion client is included so you don't have to hunt for one.
+                    </p>
+                </div>
+
+                {{-- Manual Install --}}
+                <div class="rounded-xl border border-zinc-800 bg-zinc-900/50 p-8">
+                    <div class="mb-4 flex size-12 items-center justify-center rounded-lg bg-zinc-800">
+                        <svg class="size-6 text-zinc-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 13.5V3.75m0 9.75a1.5 1.5 0 0 1 0 3m0-3a1.5 1.5 0 0 0 0 3m0 3.75V16.5m12-3V3.75m0 9.75a1.5 1.5 0 0 1 0 3m0-3a1.5 1.5 0 0 0 0 3m0 3.75V16.5m-6-9V3.75m0 3.75a1.5 1.5 0 0 1 0 3m0-3a1.5 1.5 0 0 0 0 3m0 9.75V10.5"/>
+                        </svg>
+                    </div>
+                    <h3 class="mb-3 font-cinzel text-xl font-bold text-zinc-100">Manual Configuration</h3>
+                    <p class="mb-4 text-zinc-300">
+                        Already have an existing UO client? Point it at our server:
+                    </p>
+                    <div class="mb-4 rounded-lg border border-zinc-700 bg-zinc-950 p-4">
+                        <p class="mb-1 text-xs text-zinc-500">Server Address</p>
+                        <code class="font-mono text-lg text-amber-400">login.rebirthuo.com,2593</code>
+                    </div>
+                    <p class="text-sm text-zinc-500">
+                        Configure your launcher or client login to use this address. No installer needed.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     {{-- Donation Info Section --}}
     <section class="border-t border-zinc-800/50 bg-zinc-900/30">
         <div class="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">

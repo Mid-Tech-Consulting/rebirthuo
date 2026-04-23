@@ -7,6 +7,7 @@ Route::view('/', 'welcome')->name('home');
 
 Route::livewire('donate', 'pages::donate.index')->name('donate');
 Route::livewire('videos', 'pages::videos.index')->name('videos');
+Route::livewire('rewards', 'pages::rewards.index')->name('rewards');
 
 Route::get('donate/success', fn () => redirect()->route('donate')->with('success', 'Payment received! Your sovereigns will be delivered soon.'))
     ->name('donate.success');
